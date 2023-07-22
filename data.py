@@ -17,7 +17,7 @@ class CustomerAnalytics:
         './dataset/customer_train.csv'
     """
 
-    FILEPATH = '/home/geamxd/ds_repo/datacamp_ds/unguided/project_1/project__1/dataset/customer_train.csv'
+    FILEPATH = './dataset/customer_train.csv'
 
     def __init__(self, wrangled=True):
         self.wrangled = wrangled
